@@ -1,0 +1,23 @@
+# apihub targets, hand-edited
+current: ghost
+
+options:
+  prod: http://api.example.com
+  edge: HTTP://API.EXAMPLE.COM/
+  dusk: https://dusk.example.com:443/
+  inner: http://10.0.0.7:8080
+  stage: https://stage.example.com/base/
+  ops: https://ops.example.com
+  legacy: not-a-url
+  empty:
+  badport: http://api.example.com:99999
+  ipv6: http://[::1]:8080
+  alps: HTTP://API.EXAMPLE.COM
+  dup: HTTP://API.EXAMPLE.COM//
+  mirror: http://10.0.0.7:8080/
+  prod: http://duplicate.example.com
+  odd name: http://ok.example.com
+
+theme: dark
+  broken
+  café: 端点
